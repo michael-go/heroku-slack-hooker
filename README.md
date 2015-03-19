@@ -2,7 +2,7 @@
 A tiny nodejs server that translates [Heroku](http://heroku.com) deploy-hooks to [Slack](http://slack.com)'s webhooks 
 
 ## Why?
-Slack already has a Heroku integration builtin, but missimg a small basic feature we wanted: showing the log of commits made between current and previous deploy
+Slack already has a Heroku integration builtin, but missing a small basic feature: showing the log of commits made between current and previous deploys
 
 ## Usage
 1. deploy `heroku-slack-hooker` to a server:
@@ -14,7 +14,7 @@ Slack already has a Heroku integration builtin, but missimg a small basic featur
   suppose the url is: `https://<myhooker>.herokuapp.com`
 2. go to Slack settings => Integrations 
   1. add a new 'Incoming Webhook', select a channel
-  2. copy the `Webhook URL' value. (we'll refer it as: `<slack-webhook-url>`)
+  2. copy the `Webhook URL` value. (we'll refer it as: `<slack-webhook-url>`)
 3. `cd` into a heroku project you want to connect with Slack and run:
 
   ```sh
