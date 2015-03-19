@@ -1,5 +1,5 @@
 # heroku-slack-hooker
-A tiny nodejs server that translates Heroku deploy-hooks to Slack's webhooks 
+A tiny nodejs server that translates [Heroku](http://heroku.com) deploy-hooks to [Slack](http://slack.com)'s webhooks 
 
 ## Why?
 Slack already has a Heroku integration builtin, but missimg a small basic feature we wanted: showing the log of commits made between current and previous deploy
