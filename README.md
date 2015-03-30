@@ -18,7 +18,7 @@ Slack already has a Heroku integration builtin, but missing a small basic featur
 3. `cd` into a heroku project you want to connect with Slack and run:
 
   ```sh
-     heroku addons:add deployhooks:http https://<myhooker>.herokuapp.com/hook/<slack-webhook-url>
+     heroku addons:add deployhooks:http --url https://<myhooker>.herokuapp.com/hook/<slack-webhook-url>
   ```
   (this can be also done in Heorku's dashboard webui)
 
